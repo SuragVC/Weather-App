@@ -1,0 +1,85 @@
+body {
+    background-color: #00539CFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEA47FFF !important;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#MainAppendBox {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#MainAppendBox>div {
+    width: 25%;
+}
+
+#append_div>div {
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.loading_image {
+    border-radius: 20px;
+}
+
+.sun_moon {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.wind {
+    display: flex;
+    justify-content: space-around;
+}
+
+#broadcaster {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-radius: 20px;
+}
+
+#broadcaster>div {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 20px;
+}
